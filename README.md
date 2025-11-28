@@ -197,7 +197,7 @@ All core logic is inside a single main file: **BDUI.py**.
 2. Install dependencies:
 
    ```sh
-   pip install tkinter pillow matplotlib
+   pip install tkinter pillow matplotlib reportlab
    ```
 3. Run the application:
 
@@ -227,7 +227,7 @@ No external database or internet connection required.
 * **Add Service / View Services**
 * **Save Bill to CSV**
 * **Generate Charts** (daily summary, service usage, etc.)
-* **Add printing and PDF bill export
+* **Add printing and PDF bill export**
 * **Exit Confirmation + Success Popups**
 
 ---
