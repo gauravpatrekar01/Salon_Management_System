@@ -417,7 +417,7 @@ class DashboardFrame(tk.Frame):
         # CHARTS
         # -------------------------
         chart_frame = tk.Frame(self, bg="white")
-        chart_frame.pack(fill="both", expand=True, pady=20)
+        chart_frame.pack(fill="both", expand=True, pady=10)
 
         # Left Chart → Service Popularity
         self.service_popularity_chart(chart_frame)
@@ -477,7 +477,7 @@ class DashboardFrame(tk.Frame):
                     for s in row.get("Services", "").split(";"):
                         service_count[s.strip()] += 1
 
-        fig = Figure(figsize=(4.5, 4.5), dpi=100)
+        fig = Figure(figsize=(7.5, 6.5), dpi=90)
         ax = fig.add_subplot(111)
 
         if service_count:
@@ -513,7 +513,7 @@ class DashboardFrame(tk.Frame):
                     except:
                         pass
 
-        fig = Figure(figsize=(4.5, 4.5), dpi=100)
+        fig = Figure(figsize=(7.5, 6.5), dpi=90)
         ax = fig.add_subplot(111)
 
         if monthly:
