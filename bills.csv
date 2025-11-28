@@ -1,0 +1,74 @@
+ID,Name,Staff,Services,Total,Discount,Final,Date
+1,Gaurav Patrekar,Not Assigned,Haircut;Hair Coloring;Manicure,580.0,116.0,464.0,2025-11-21
+2,Riya Sharma,Asha,Haircut;Facial,280.0,28.0,252.0,2025-11-21
+3,Krishna Desai,Rohit,Hair Coloring,100.0,0.0,100.0,2025-11-21
+4,Aaditya Jadhav,Rahul,Massage;Facial,400.0,40.0,360.0,2025-11-21
+5,Neha Patil,Meena,Manicure;Pedicure,700.0,70.0,630.0,2025-11-21
+6,Sameer Kulkarni,Asha,Haircut;Shaving,230.0,0.0,230.0,2025-11-21
+7,Payal Chavan,Deepak,Hair Coloring;Facial;Massage,500.0,50.0,450.0,2025-11-21
+8,Vishal Pawar,Suresh,Haircut;Shaving;Massage,430.0,43.0,387.0,2025-11-21
+9,Sanjana More,Komal,Haircut;Pedicure,380.0,0.0,380.0,2025-11-21
+10,Harshal Patrekar,Sneha,Massage;Pedicure,500.0,25.0,475.0,2025-11-21
+11,Ananya Kale,Asha,Haircut,80.0,0.0,80.0,2025-11-21
+12,Manoj Barve,Rohit,Facial,200.0,20.0,180.0,2025-11-21
+13,Pooja Shelar,Rahul,Massage,200.0,0.0,200.0,2025-11-21
+14,Sujata Lokhande,Meena,Pedicure,300.0,0.0,300.0,2025-11-21
+15,Akshay Mane,Suresh,Haircut;Massage,260.0,26.0,234.0,2025-11-21
+16,Tanvi Joshi,Asha,Shaving,150.0,0.0,150.0,2025-11-21
+17,Vaibhav Kamat,Komal,Hair Coloring;Pedicure,400.0,20.0,380.0,2025-11-21
+18,Divya Wagh,Deepak,Manicure,400.0,40.0,360.0,2025-11-21
+19,Nitin Choudhary,Sneha,Facial;Pedicure,500.0,50.0,450.0,2025-11-21
+20,Sakshi Shinde,Rahul,Haircut;Facial;Massage,480.0,48.0,432.0,2025-11-21
+21,Omkar Patil,Asha,Shaving;Massage,350.0,0.0,350.0,2025-11-21
+22,Rekha Sathe,Rohit,Hair Coloring;Facial,300.0,0.0,300.0,2025-11-21
+23,Vedant Kulkarni,Komal,Manicure;Facial,600.0,30.0,570.0,2025-11-21
+24,Aarohi Pansare,Suresh,Haircut;Pedicure;Massage,540.0,54.0,486.0,2025-11-21
+25,Prathamesh Miske,Meena,Pedicure;Massage,500.0,0.0,500.0,2025-11-21
+26,Kajal Jadhav,Asha,Haircut;Shaving;Facial,430.0,43.0,387.0,2025-11-21
+27,Amol Zende,Rohit,Hair Coloring;Massage,300.0,15.0,285.0,2025-11-21
+28,Komal Pawar,Sneha,Haircut;Manicure,480.0,48.0,432.0,2025-11-21
+29,Rajesh Shetty,Komal,Shaving;Facial,350.0,0.0,350.0,2025-11-21
+30,Ashwini Patil,Deepak,Massage;Hair Coloring,300.0,30.0,270.0,2025-11-21
+31,Gayatri Kadam,Rahul,Facial;Manicure,600.0,30.0,570.0,2025-11-21
+32,Swapnil Jagtap,Suresh,Haircut;Facial;Pedicure,580.0,0.0,580.0,2025-11-21
+33,Priya Pise,Meena,Haircut;Massage,260.0,26.0,234.0,2025-11-21
+34,Rohit Borse,Asha,Haircut;Shaving;Manicure,630.0,0.0,630.0,2025-11-21
+35,Harini Shastri,Komal,Facial;Massage;Pedicure,700.0,70.0,630.0,2025-11-21
+36,Devendra Naik,Deepak,Haircut;Hair Coloring,180.0,18.0,162.0,2025-11-21
+37,Shruti Mohite,Sneha,Massage;Pedicure;Manicure,900.0,90.0,810.0,2025-11-21
+38,Yogesh Rathod,Asha,Shaving;Haircut;Facial,430.0,43.0,387.0,2025-11-21
+39,Janhavi Sawant,Rohit,Hair Coloring;Facial;Pedicure,600.0,0.0,600.0,2025-11-21
+40,Aditya Tapkir,Rahul,Massage;Shaving,350.0,0.0,350.0,2025-11-21
+41,Reema More,Meena,Facial;Pedicure;Manicure,1000.0,100.0,900.0,2025-11-21
+42,Amit Patankar,Suresh,Haircut;Shaving;Hair Coloring,330.0,0.0,330.0,2025-11-21
+43,Ankita Dhumal,Deepak,Massage;Haircut,280.0,28.0,252.0,2025-11-21
+44,Om Pawar,Komal,Shaving;Manicure,550.0,55.0,495.0,2025-11-21
+45,Purva Lokhande,Meena,Haircut;Facial;Massage,480.0,48.0,432.0,2025-11-21
+46,Suyash Ghadge,Sneha,Manicure;Pedicure;Hair Coloring,800.0,40.0,760.0,2025-11-21
+47,Tina Patil,Rohit,Haircut;Massage;Pedicure,540.0,0.0,540.0,2025-11-21
+48,Nikhil Bhandari,Asha,Haircut;Shaving;Pedicure,530.0,53.0,477.0,2025-11-21
+49,Kiran Rathore,Suresh,Massage;Facial,400.0,40.0,360.0,2025-11-21
+50,Mahesh More,Deepak,Haircut;Facial;Manicure,680.0,68.0,612.0,2025-11-21
+51,Riya Sharma,Asha,Haircut;Facial,280,28,252,2025-11-03
+52,Krishna Desai,Rohit,Hair Coloring,100,10,90,2025-11-12
+53,Aditya Jadhav,Rahul,Massage;Facial,400,40,360,2025-10-29
+54,Neha Patil,Meena,Manicure;Pedicure,700,70,630,2025-11-16
+55,Sameer Kulkarni,Asha,Haircut;Shaving,230,23,207,2025-11-07
+56,Payal Chavan,Deepak,Hair Coloring;Massage,300,45,255,2025-11-17
+57,Vishal Pawar,Suresh,Haircut;Massage,280,28,252,2025-11-10
+58,Sanjana More,Komal,Haircut;Pedicure,380,38,342,2025-11-14
+59,Harshal Patrekar,Sneha,Massage;Pedicure,500,50,450,2025-11-02
+60,Ananya Kale,Asha,Haircut,80,8,72,2025-11-05
+61,Pooja Shelar,Rahul,Massage,200,20,180,2025-10-30
+62,Sujata Lokhande,Meena,Pedicure,300,30,270,2025-11-11
+63,Akshay Mane,Suresh,Haircut;Massage,280,42,238,2025-11-09
+64,Tanvi Joshi,Asha,Shaving,150,15,135,2025-11-15
+65,Vaibhav Kamat,Komal,Hair Coloring;Pedicure,400,60,340,2025-11-06
+66,Divya Wagh,Deepak,Manicure,400,40,360,2025-11-18
+67,Nitin Choudhary,Sneha,Facial;Pedicure,500,50,450,2025-11-01
+68,Sakshi Shinde,Rahul,Haircut;Facial;Massage,530,79,451,2025-11-13
+69,Omkar Patil,Asha,Shaving;Massage,350,35,315,2025-11-04
+70,Rekha Sathe,Rohit,Hair Coloring;Facial,300,45,255,2025-11-08
+71,Ramesh Kesari,Not Assigned,Manicure;Massage,600.0,0.0,600.0,2025-11-21
+72,Raj Shemani,Meena,Manicure,400.0,40.0,360.0,2025-11-22
+73,snehal,Kavita,Hair Coloring;Facial;Pedicure,600.0,42.0,558.0,2025-11-28

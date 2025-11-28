@@ -1,0 +1,74 @@
+ID,Name,Services,Date,Time,Staff
+1,Gaurav Patrekar,Haircut;Hair Coloring;Manicure,2025-11-21,20:19,Not Assigned
+2,Riya Sharma,Haircut;Facial,2025-11-21,10:00,Asha
+3,Krishna Desai,Hair Coloring,2025-11-21,10:30,Rohit
+4,Aaditya Jadhav,Massage;Facial,2025-11-21,11:00,Rahul
+5,Neha Patil,Manicure;Pedicure,2025-11-21,11:45,Meena
+6,Sameer Kulkarni,Haircut;Shaving,2025-11-21,12:30,Asha
+7,Payal Chavan,Hair Coloring;Facial;Massage,2025-11-21,13:00,Deepak
+8,Vishal Pawar,Haircut;Shaving;Massage,2025-11-21,14:00,Suresh
+9,Sanjana More,Haircut;Pedicure,2025-11-21,14:45,Komal
+10,Harshal Patrekar,Massage;Pedicure,2025-11-21,15:30,Sneha
+11,Ananya Kale,Haircut,2025-11-21,16:00,Asha
+12,Manoj Barve,Facial,2025-11-21,16:30,Rohit
+13,Pooja Shelar,Massage,2025-11-21,17:00,Rahul
+14,Sujata Lokhande,Pedicure,2025-11-21,17:45,Meena
+15,Akshay Mane,Haircut;Massage,2025-11-21,18:30,Suresh
+16,Tanvi Joshi,Shaving,2025-11-21,19:00,Asha
+17,Vaibhav Kamat,Hair Coloring;Pedicure,2025-11-21,19:30,Komal
+18,Divya Wagh,Manicure,2025-11-21,20:00,Deepak
+19,Nitin Choudhary,Facial;Pedicure,2025-11-21,20:30,Sneha
+20,Sakshi Shinde,Haircut;Facial;Massage,2025-11-21,21:15,Rahul
+21,Omkar Patil,Shaving;Massage,2025-11-22,10:00,Asha
+22,Rekha Sathe,Hair Coloring;Facial,2025-11-22,10:45,Rohit
+23,Vedant Kulkarni,Manicure;Facial,2025-11-22,11:30,Komal
+24,Aarohi Pansare,Haircut;Pedicure;Massage,2025-11-22,12:15,Suresh
+25,Prathamesh Miske,Pedicure;Massage,2025-11-22,13:00,Meena
+26,Kajal Jadhav,Haircut;Shaving;Facial,2025-11-22,13:45,Asha
+27,Amol Zende,Hair Coloring;Massage,2025-11-22,14:30,Rohit
+28,Komal Pawar,Haircut;Manicure,2025-11-22,15:15,Sneha
+29,Rajesh Shetty,Shaving;Facial,2025-11-22,16:00,Komal
+30,Ashwini Patil,Massage;Hair Coloring,2025-11-22,16:45,Deepak
+31,Gayatri Kadam,Facial;Manicure,2025-11-22,17:30,Rahul
+32,Swapnil Jagtap,Haircut;Facial;Pedicure,2025-11-22,18:15,Suresh
+33,Priya Pise,Haircut;Massage,2025-11-22,19:00,Meena
+34,Rohit Borse,Haircut;Shaving;Manicure,2025-11-22,19:45,Asha
+35,Harini Shastri,Facial;Massage;Pedicure,2025-11-22,20:30,Komal
+36,Devendra Naik,Haircut;Hair Coloring,2025-11-22,21:15,Rohit
+37,Shruti Mohite,Massage;Pedicure;Manicure,2025-11-23,10:00,Sneha
+38,Yogesh Rathod,Shaving;Haircut;Facial,2025-11-23,10:45,Asha
+39,Janhavi Sawant,Hair Coloring;Facial;Pedicure,2025-11-23,11:30,Rohit
+40,Aditya Tapkir,Massage;Shaving,2025-11-23,12:00,Rahul
+41,Reema More,Facial;Pedicure;Manicure,2025-11-23,12:45,Meena
+42,Amit Patankar,Haircut;Shaving;Hair Coloring,2025-11-23,13:30,Suresh
+43,Ankita Dhumal,Massage;Haircut,2025-11-23,14:00,Deepak
+44,Om Pawar,Shaving;Manicure,2025-11-23,14:45,Komal
+45,Purva Lokhande,Haircut;Facial;Massage,2025-11-23,15:30,Rahul
+46,Suyash Ghadge,Manicure;Pedicure;Hair Coloring,2025-11-23,16:15,Sneha
+47,Tina Patil,Haircut;Massage;Pedicure,2025-11-23,17:00,Suresh
+48,Nikhil Bhandari,Haircut;Shaving;Pedicure,2025-11-23,17:45,Asha
+49,Kiran Rathore,Massage;Facial,2025-11-23,18:30,Rahul
+50,Mahesh More,Haircut;Facial;Manicure,2025-11-23,19:15,Deepak
+51,Riya Sharma,Haircut;Facial,2025-11-03,11:12,Asha
+52,Krishna Desai,Hair Coloring,2025-11-12,15:48,Rohit
+53,Aditya Jadhav,Massage;Facial,2025-10-29,18:05,Rahul
+54,Neha Patil,Manicure;Pedicure,2025-11-16,13:32,Meena
+55,Sameer Kulkarni,Haircut;Shaving,2025-11-07,10:44,Asha
+56,Payal Chavan,Hair Coloring;Massage,2025-11-17,17:58,Deepak
+57,Vishal Pawar,Haircut;Massage,2025-11-10,12:20,Suresh
+58,Sanjana More,Haircut;Pedicure,2025-11-14,16:11,Komal
+59,Harshal Patrekar,Massage;Pedicure,2025-11-02,19:45,Sneha
+60,Ananya Kale,Haircut,2025-11-05,20:30,Asha
+61,Pooja Shelar,Massage,2025-10-30,14:55,Rahul
+62,Sujata Lokhande,Pedicure,2025-11-11,12:42,Meena
+63,Akshay Mane,Haircut;Massage,2025-11-09,13:27,Suresh
+64,Tanvi Joshi,Shaving,2025-11-15,15:22,Asha
+65,Vaibhav Kamat,Hair Coloring;Pedicure,2025-11-06,17:40,Komal
+66,Divya Wagh,Manicure,2025-11-18,11:35,Deepak
+67,Nitin Choudhary,Facial;Pedicure,2025-11-01,16:58,Sneha
+68,Sakshi Shinde,Haircut;Facial;Massage,2025-11-13,18:20,Rahul
+69,Omkar Patil,Shaving;Massage,2025-11-04,10:25,Asha
+70,Rekha Sathe,Hair Coloring;Facial,2025-11-08,19:11,Rohit
+71,Ramesh Kesari,Manicure;Massage,2025-11-23,21:00,Not Assigned
+72,Raj Shemani,Manicure,2025-11-23,22:30,Meena
+73,snehal,Hair Coloring;Facial;Pedicure,2025-11-28,10:57,Kavita
