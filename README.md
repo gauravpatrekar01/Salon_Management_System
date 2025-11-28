@@ -1,183 +1,200 @@
-# BellaDesk – Salon Management Desktop App
+# **BellaDesk – Salon Management Desktop App**
 
-BellaDesk is a lightweight Python-based desktop application built with `tkinter` to help salons manage daily operations such as customers, services, billing, and data storage. It is designed for small salons needing an offline, simple, and easy-to-use system.
-
----
-
-**Technology:** Python, Tkinter, CSV, ReportLab, Matplotlib, PIL
-
-## 1. Overview
-
-BellaDesk is a **desktop-based salon management system** built using Tkinter. It handles daily salon operations such as **appointments, staff management, billing, analytics, and PDF report generation**.
-The app uses **CSV files as a lightweight database**, and **ReportLab** to generate invoices & daily business reports.
+BellaDesk is a lightweight **Python Tkinter desktop application** designed for small salons to manage daily operations such as appointments, services, staff, billing, and analytics.
+It is completely **offline**, uses **CSV files** as storage, and generates **professional PDF invoices and daily business reports**.
 
 ---
 
-## 2. Core Functionalities
+## **Technology Stack**
 
-### 2.1 Dashboard
+Python, Tkinter, CSV, ReportLab, Matplotlib, PIL (Pillow)
+
+---
+
+# **1. Overview**
+
+BellaDesk is a simple and efficient **salon management system** built using Tkinter.
+It manages daily salon workflows:
+
+* Appointments
+* Staff specialization
+* Billing and discounts
+* Analytics & charts
+* PDF invoices and daily reports
+
+All data is stored locally in CSV files, making the system portable and easy to run on any machine.
+
+---
+
+# **2. Core Functionalities**
+
+---
+
+## **2.1 Dashboard**
 
 Displays:
 
 * Total customers
-* Total income
+* Daily income
 * Most used services
-* Staff performance
-* Daily analytics using Matplotlib charts
+* Staff performance insights
+* Visual charts using Matplotlib
 
 ---
 
-## 2.2 Appointment Management
+## **2.2 Appointment Management**
 
 Users can:
 
 * Add new appointments
-* Select multiple services
-* Automatically calculate service time duration
-* Auto-assign qualified staff based on service specialization
-* Auto-generate next available time slot
-* Store all appointments in `appointments.csv`
+* Choose multiple services
+* Auto-calculate service duration
+* Auto-assign qualified staff
+* Check available time slots
+* Save appointments to `appointments.csv`
 
-### Key Logic
+### **Key Logic**
 
-* Each service has fixed duration
-* Last appointment’s end-time decides next appointment slot
-* Only staff who *specialize* in selected services are listed
+* Each service has a fixed time duration
+* Previous appointment’s end-time determines the next slot
+* Only staff who specialize in selected services appear in the list
 
 ---
 
-## 2.3 Staff Management
+## **2.3 Staff Management**
 
-Stores details in `staff.csv`.
+Stored in `staff.csv` with:
 
-Staff data includes:
-
-* Name
-* Specialization (Haircut, Coloring, Facial etc.)
+* Staff name
+* Specialization (Haircut, Facial, Coloring, etc.)
 * Salary
 
-Users can add/edit staff, and staff qualifications are used during appointment creation.
+Specialization data is used during appointments for intelligent staff assignment.
 
 ---
 
-## 2.4 Billing System
+## **2.4 Billing System**
 
 Features:
 
-* Calculates total amount based on selected services
-* Applies discounts
-* Generates invoice on screen
-* Saves all bills in `bills.csv`
-* Prevents duplicate bill generation (one bill per appointment)
+* Total price calculation based on selected services
+* Discount support
+* On-screen bill preview
+* Prevents duplicate bills for the same appointment
+* Saves transaction data to `bills.csv`
 
-### PDF Invoice (ReportLab)
+### **PDF Invoice (ReportLab)**
 
-Invoice contains:
+Includes:
 
-* Logo
-* Customer details
-* Appointment details
-* Services & prices
-* Total, discount, final payable
+* Salon logo
+* Customer information
+* Services table with price
+* Total → Discount → Final payable
 * Footer message
 
 ---
 
-## 2.5 Daily Report PDF
+## **2.5 Daily Report PDF**
 
-Generates a **business report for any selected date** showing:
+Generates a **complete business summary** for any selected date:
 
 * Total income
-* Total customers
+* Number of customers
 * Most used service
 * Top-performing staff
-* Table of all transactions
-* Auto-pagination
+* Transaction table
+* Auto-pagination for long data
 
 ---
 
-## 2.6 File Storage System
+## **2.6 File Storage System**
 
-Your app uses three CSV files:
+BellaDesk uses three simple CSV files:
 
-| File               | Purpose                                  |
-| ------------------ | ---------------------------------------- |
-| `staff.csv`        | Store staff name, specialization, salary |
-| `appointments.csv` | Store all booked appointments            |
-| `bills.csv`        | Store generated bills for analytics      |
+| File               | Purpose                         |
+| ------------------ | ------------------------------- |
+| `staff.csv`        | Staff data with specialization  |
+| `appointments.csv` | Appointment details             |
+| `bills.csv`        | Billing and transaction history |
 
-No SQL database is used, making the app portable and lightweight.
-
----
-
-## 2.7 UI/UX
-
-Built with Tkinter:
-
-* Fullscreen responsive window
-* Sidebar navigation (Dashboard, Appointments, Staff, Billing, Reports)
-* Header with app branding and logo
-* Modular frames for easy navigation
+No database configuration required.
 
 ---
 
-## 3. Technical Breakdown
+## **2.7 User Interface**
 
-### Libraries Used
+Tkinter-based interface featuring:
 
-* **Tkinter** → GUI
-* **PIL (Pillow)** → Image handling
-* **ReportLab** → PDF generation
-* **Matplotlib** → Dashboard charts
-* **CSV module** → Local data storage
-* **Datetime** → Scheduling logic
-* **OS** → File handling
+* Fullscreen responsive layout
+* Sidebar navigation menu
+* Header with app logo
+* Dedicated screens for each function
 
----
-
-## 4. Business Value
-
-BellaDesk helps salons to:
-
-* Automate appointments
-* Reduce manual scheduling
-* Track income & performance
-* Produce professional invoices
-* Generate daily business reports
-* Maintain staff and service records
+Modular frames keep navigation smooth.
 
 ---
 
-## 5. Summary Description (Short Version)
+# **3. Technical Breakdown**
 
-BellaDesk is a Python Tkinter-based salon management system that manages appointments, staff specialization, billing, analytics, and PDF reporting. It uses CSV files for storage and integrates Pillow, Matplotlib, and ReportLab for images, charts, and invoice generation. The system automates customer scheduling, assigns qualified staff, provides business dashboards, and produces professional invoices and daily reports.
+### **Libraries Used**
 
----
-
-## Features
-
-* Customer details entry
-* Service selection and bill generation
-* CSV-based data storage (no database required)
-* Dashboard with basic statistics
-* Pop-up notifications (e.g., **“Data saved successfully”**)
-* Image support using Pillow (optional)
-* Matplotlib charts integrated inside Tkinter
-* Clean and interactive user interface
+* **Tkinter** – GUI
+* **PIL (Pillow)** – Image support
+* **ReportLab** – PDF bills & reports
+* **Matplotlib** – Dashboard visualizations
+* **CSV module** – Data storage
+* **Datetime** – Scheduling logic
+* **OS** – File handling
 
 ---
 
-## Technologies Used
+# **4. Business Value**
+
+BellaDesk helps salons:
+
+* Automate appointment scheduling
+* Reduce manual errors
+* Track income and staff performance
+* Generate professional invoices
+* Produce daily business reports
+* Maintain organized service records
+
+---
+
+# **5. Short Summary Description**
+
+BellaDesk is a Python Tkinter-based salon management application with features for appointments, staff specialization, billing, analytics, and PDF reporting. It uses CSV files for storage and integrates Pillow, Matplotlib, and ReportLab for images, charts, and invoice generation. The system automates scheduling, assigns skilled staff, and provides dashboards and printable business reports.
+
+---
+
+# **6. Feature List**
+
+* Customer & appointment management
+* Multiple service selection
+* Automated billing
+* CSV-based data storage
+* Dashboard statistics
+* PDF invoice generation
+* PDF daily business report
+* Matplotlib charts inside Tkinter
+* Pop-up confirmations
+* Clean and simple UI
+
+---
+
+# **7. Technologies Used**
 
 * Python
-* tkinter
+* Tkinter
 * CSV
-* Pillow *(optional)*
+* Pillow (optional)
+* ReportLab
 * Matplotlib
 
 ---
 
-## Project Structure (Simple Linear)
+# **8. Project Structure (Linear)**
 
 ```
 BDUI.py
@@ -187,17 +204,17 @@ bills.csv
 logo.png
 ```
 
-All core logic is inside a single main file: **BDUI.py**.
+All core logic resides in the main file: `BDUI.py`.
 
 ---
 
-## How to Run
+# **9. How to Run**
 
 1. Install Python 3.8+
 2. Install dependencies:
 
    ```sh
-   pip install tkinter pillow matplotlib reportlab
+   pip install pillow matplotlib reportlab
    ```
 3. Run the application:
 
@@ -207,34 +224,30 @@ All core logic is inside a single main file: **BDUI.py**.
 
 ---
 
-## How Data is Stored
+# **10. Data Storage Explanation**
 
-BellaDesk stores all data locally in CSV files:
+| Purpose              | File               |
+| -------------------- | ------------------ |
+| Appointment records  | `appointments.csv` |
+| Staff data           | `staff.csv`        |
+| Billing transactions | `bills.csv`        |
 
-| Purpose   | File Name       |
-| --------- | --------------- |
-| Appointments | `appointments.csv` |
-| Staff  | `staff.csv`  |
-| Bills     | `bills.csv`     |
-
-No external database or internet connection required.
+The app works completely offline with no database setup required.
 
 ---
 
-## Key Functions (Inside the App)
+# **11. Key App Functions**
 
-* **Add Customer**
-* **Add Service / View Services**
-* **Save Bill to CSV**
-* **Generate Charts** (daily summary, service usage, etc.)
-* **Add printing and PDF bill export**
-* **Exit Confirmation + Success Popups**
+* Add customer
+* Select services
+* Generate bill
+* Save data to CSV
+* Display charts
+* Print and export PDF
+* Exit confirmations
+* Success pop-up notifications
 
----
-
-## Example Popup
-
-Uses:
+Example pop-up:
 
 ```python
 messagebox.showinfo("Success", "All data saved successfully!")
@@ -242,15 +255,15 @@ messagebox.showinfo("Success", "All data saved successfully!")
 
 ---
 
-## Future Improvements
+# **12. Future Improvements**
 
-* Shift from CSV to a database (SQLite or MongoDB)
-* Add authentication/login
-* Add cloud sync
+* Shift from CSV to SQLite or MongoDB
+* Add login/authentication
+* Cloud sync for multi-device use
+* Enhanced staff analytics
 
 ---
 
-## License
+# **License**
 
-This project is free to use for learning and personal projects.
-
+Free to use for learning and personal projects.
